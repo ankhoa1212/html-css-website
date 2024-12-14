@@ -1,0 +1,89 @@
+*{
+    font-family: 'Mooli', sans-serif;
+}
+body {
+    background-color:aquamarine;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+header ul {
+    margin: 0;
+    padding: 20px 0;
+    display: table;
+    width: 100%;
+    background-color:darksalmon;
+}
+header li{
+    display: table-cell;
+    text-align: center;
+}
+header li a{
+    color:blueviolet;
+}
+header h1, footer, section figure{
+    text-align: center;
+}
+header h1 {
+    font-size: 50px;
+}
+header h2 {
+    font-size: 25px;
+}
+main h2 {
+    font-size: 30px;
+    font-style: bold;
+}
+figure img {
+    height: 200px;
+    border-radius: 15px;
+}
+#first-image{
+    height: 300px;
+}
+footer{
+    background-color: salmon;
+    padding: 10px 0;
+}
+footer p a{
+    color: blueviolet;
+}
+h3 {
+    color: green;
+    border: medium dotted red;
+    padding: 30px 30px;
+    margin: 100px 20px;
+    min-width: 1px;
+    max-width: 100px;
+    visibility: collapse;
+    
+}
+.grid {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 50% 50%;
+    padding: 0px;
+    align-items: center;
+    margin: 100px;
+}
+.box{
+    height: 100%;
+    border: 10px solid black;
+    color: snow;
+    background-position-x: center;
+}
+.a{
+    background-image: url("https://i.natgeofe.com/n/36bcd011-5800-469b-9fdb-0ee73495525b/Tetrapodophis_Frontlimb.jpg");
+    background-size: cover;
+}
+.b{
+    background-image: url("https://www.al-monitor.com/sites/default/files/styles/article_header/public/2022-02/GettyImages-504965960.jpg?h=a5ae579a&itok=Zke9mhsb");
+    background-size: cover;
+}
+.c{
+    background-image: url("https://www.worldatlas.com/r/w1200/upload/a4/7d/2b/shutterstock-92596504.jpg");
+    background-size: cover;
+}
+.d{
+    background-image: url("https://www.scuba.com/blog/wp-content/uploads/2019/03/sea-snake-jong-marshes-zrFVG_8Xjh8-unsplash.jpg");
+    background-size: cover;
+}

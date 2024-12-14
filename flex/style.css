@@ -1,0 +1,19 @@
+.container {
+    background-color: burlywood;
+    height: 250px;
+}
+.box {
+    background-color: beige;
+    width: 15px;
+    border: 1px solid lightblue;
+    flex-grow: 10;
+}
+#block {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#middle {
+    background-color: red;
+    flex-grow: 1000;
+}
